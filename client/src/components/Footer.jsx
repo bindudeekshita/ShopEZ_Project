@@ -12,7 +12,7 @@ const Footer = () => {
             <span style={{ verticalAlign: 'middle' }}>ShopEZ</span>
           </div>
           <p className="footer-text">
-            ShopEZ is a next-generation MERN e-commerce application designed to provide the fastest, easiest, and most secure shopping experience online.
+            ShopEZ is a modern MERN storefront built for fast search, secure checkout, and easy order tracking.
           </p>
         </div>
 
@@ -23,7 +23,7 @@ const Footer = () => {
             <li><Link to="/products?category=Fashion">Fashion</Link></li>
             <li><Link to="/products?category=Mobiles">Mobiles</Link></li>
             <li><Link to="/products?category=Groceries">Groceries</Link></li>
-            <li><Link to="/products?category=Sports Equipment">Sports Equipment</Link></li>
+            <li><Link to="/products?category=Sports%20Equipment">Sports Equipment</Link></li>
           </ul>
         </div>
 
@@ -38,7 +38,7 @@ const Footer = () => {
       </div>
 
       <div className="container footer-bottom">
-        <p>&copy; {new Date().getFullYear()} ShopEZ Inc. All rights reserved. Built with love using the MERN stack.</p>
+        <p>&copy; {new Date().getFullYear()} ShopEZ. All rights reserved. Crafted for everyday online shopping.</p>
       </div>
     </footer>
   );

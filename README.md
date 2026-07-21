@@ -1,6 +1,6 @@
 # ShopEZ - MERN Stack E-Commerce Application
 
-ShopEZ is a premium, full-featured MERN stack e-commerce application designed with modern aesthetics (similar to Amazon / Flipkart). It is built using React (Vite) on the frontend and Node/Express/MongoDB on the backend, complete with user authentication, cart management, checking out, and an admin dashboard.
+ShopEZ is a polished MERN stack e-commerce application with a clean, modern design inspired by popular online marketplaces. It uses React (Vite) on the frontend and Node/Express/MongoDB on the backend, complete with user authentication, cart management, checkout flow, and an admin dashboard.
 
 ---
 

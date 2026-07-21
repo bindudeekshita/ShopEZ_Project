@@ -52,11 +52,11 @@ const Header = () => {
           <input
             type="text"
             className="search-input"
-            placeholder="Search products, brands and more..."
+            placeholder="Search products, brands, categories..."
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
           />
-          <button type="submit" className="search-icon-btn">
+          <button type="submit" className="search-icon-btn" aria-label="Search products">
             <Search size={20} />
           </button>
         </form>

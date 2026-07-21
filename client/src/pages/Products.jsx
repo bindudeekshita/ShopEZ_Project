@@ -107,7 +107,7 @@ const Products = () => {
                 }}
                 style={{ padding: '10px 24px' }}
               >
-                Clear Filters
+                Reset Filters
               </button>
             </div>
           ) : (
