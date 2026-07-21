@@ -1532,17 +1532,28 @@ button {
 
 /* Footer styling */
 .shopez-footer {
-  background-color: var(--dark);
+  background: linear-gradient(135deg, #0f172a 0%, #111827 100%);
   color: var(--white);
-  padding: 40px 0;
+  padding: 48px 0 32px;
   margin-top: auto;
   border-top: 4px solid var(--primary);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05);
 }
 
 .footer-content {
   display: grid;
   grid-template-columns: 2fr 1fr 1fr;
-  gap: 40px;
+  gap: 24px;
+  align-items: start;
+}
+
+.footer-column {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+  padding: 20px;
+  backdrop-filter: blur(8px);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.04);
 }
 
 .footer-logo {
@@ -1551,12 +1562,19 @@ button {
   font-weight: 800;
   color: var(--white);
   margin-bottom: 12px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.06);
 }
 
 .footer-text {
-  color: var(--gray-text);
+  color: #cbd5e1;
   font-size: 14px;
   max-width: 400px;
+  line-height: 1.8;
 }
 
 .footer-column h4 {
@@ -1574,21 +1592,30 @@ button {
 .footer-links li {
   margin-bottom: 10px;
   font-size: 14px;
-  color: var(--gray-text);
+  color: #cbd5e1;
+  transition: var(--transition-fast);
+}
+
+.footer-links li a {
+  display: inline-block;
   transition: var(--transition-fast);
 }
 
 .footer-links li:hover {
   color: var(--white);
-  padding-left: 4px;
+}
+
+.footer-links li:hover a {
+  color: var(--white);
+  transform: translateX(4px);
 }
 
 .footer-bottom {
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
   margin-top: 30px;
   padding-top: 20px;
   text-align: center;
-  color: var(--gray-text);
+  color: #cbd5e1;
   font-size: 13px;
 }
 
