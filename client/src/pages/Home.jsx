@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 
+
 const Home = () => {
   const navigate = useNavigate();
   const [currentSlide, setCurrentSlide] = useState(0);

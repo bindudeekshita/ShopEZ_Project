@@ -70,6 +70,7 @@ const ProductCard = ({ product }) => {
                 : adding 
                   ? 'Adding...' 
                   : 'Add To Cart'}
+              
             </span>
           </button>
         )}
