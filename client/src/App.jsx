@@ -2,7 +2,6 @@ import React, { useContext } from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate, useLocation } from 'react-router-dom';
 import { AuthProvider, AuthContext } from './context/AuthContext';
 import { CartProvider } from './context/CartContext';
-
 // Components
 import Header from './components/Header';
 import Footer from './components/Footer';
