@@ -3,6 +3,7 @@ import { useNavigate, Link } from 'react-router-dom';
 import { ShieldAlert, Mail, Lock, ShoppingBag } from 'lucide-react';
 import { AuthContext } from '../context/AuthContext';
 
+
 const AdminLogin = () => {
   const navigate = useNavigate();
   const { adminLogin, user } = useContext(AuthContext);
