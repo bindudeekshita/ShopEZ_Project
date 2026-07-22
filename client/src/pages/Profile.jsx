@@ -3,6 +3,7 @@ import { User, ShoppingBag, Mail, Calendar, Eye } from 'lucide-react';
 import api from '../services/api';
 import { AuthContext } from '../context/AuthContext';
 
+
 const Profile = () => {
   const { user } = useContext(AuthContext);
   const [orders, setOrders] = useState([]);
