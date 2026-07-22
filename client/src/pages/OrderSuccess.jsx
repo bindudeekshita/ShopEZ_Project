@@ -2,6 +2,7 @@ import React from 'react';
 import { useLocation, useNavigate, Link } from 'react-router-dom';
 import { Check, ShoppingBag, ListChecks } from 'lucide-react';
 
+
 const OrderSuccess = () => {
   const location = useLocation();
   const navigate = useNavigate();
