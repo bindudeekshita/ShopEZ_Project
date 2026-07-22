@@ -3,6 +3,7 @@ import { useNavigate, Link } from 'react-router-dom';
 import { User, Mail, Lock, ShoppingBag } from 'lucide-react';
 import { AuthContext } from '../context/AuthContext';
 
+
 const Register = () => {
   const navigate = useNavigate();
   const { register, user } = useContext(AuthContext);
