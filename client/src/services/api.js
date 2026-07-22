@@ -1,5 +1,4 @@
 import axios from 'axios';
-
 // Create an Axios instance
 const api = axios.create({
   baseURL: '', // Empty because Vite proxy handles routing '/api' to 'http://localhost:5000'
