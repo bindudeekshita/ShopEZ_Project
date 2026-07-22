@@ -5,6 +5,7 @@ import api from '../services/api';
 import { CartContext } from '../context/CartContext';
 import { AuthContext } from '../context/AuthContext';
 
+
 const ProductDetails = () => {
   const { id } = useParams();
   const navigate = useNavigate();
