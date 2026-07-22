@@ -3,6 +3,7 @@ import { useNavigate, Link } from 'react-router-dom';
 import { Trash2, ArrowLeft, ShoppingBag } from 'lucide-react';
 import { CartContext } from '../context/CartContext';
 
+
 const CartPage = () => {
   const navigate = useNavigate();
   const { cartItems, addToCart, removeFromCart, cartSubtotal, loading } = useContext(CartContext);
