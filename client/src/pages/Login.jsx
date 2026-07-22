@@ -3,6 +3,7 @@ import { useNavigate, Link, useLocation } from 'react-router-dom';
 import { Mail, Lock, ShoppingBag } from 'lucide-react';
 import { AuthContext } from '../context/AuthContext';
 
+
 const Login = () => {
   const navigate = useNavigate();
   const location = useLocation();
