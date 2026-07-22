@@ -2,6 +2,7 @@ const Order = require('../models/Order');
 const Cart = require('../models/Cart');
 const Product = require('../models/Product');
 
+
 // Helper to populate user and product details in mock orders
 const populateMockOrders = (ordersList) => {
   return ordersList.map(ord => {

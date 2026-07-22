@@ -2,6 +2,7 @@ const User = require('../models/User');
 const Product = require('../models/Product');
 const bcrypt = require('bcryptjs');
 
+
 const seedData = async () => {
   const products = [
     // ===== ELECTRONICS (10 products) =====

@@ -11,6 +11,10 @@ pdf_path = root / 'SHOPEZ.pdf'
 text = readme_path.read_text(encoding='utf-8')
 lines = text.splitlines()
 
+
+
+
+
 styles = getSampleStyleSheet()
 if 'Title' not in styles.byName:
     styles.add(ParagraphStyle(name='Title', parent=styles['Heading1'], fontName='Helvetica-Bold', fontSize=24, leading=28, spaceAfter=10, textColor=colors.HexColor('#113b94')))

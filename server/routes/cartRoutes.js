@@ -3,6 +3,7 @@ const router = express.Router();
 const { getCart, addToCart, removeFromCart } = require('../controllers/cartController');
 const { protect } = require('../middleware/auth');
 
+
 router.use(protect); // protect all cart routes
 
 router.route('/')

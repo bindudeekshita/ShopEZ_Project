@@ -1,6 +1,4 @@
 const Product = require('../models/Product');
-
-// @desc    Get all products (with filters & search)
 // @route   GET /api/products
 // @access  Public
 const getProducts = async (req, res) => {

@@ -7,5 +7,4 @@ const { admin } = require('../middleware/admin');
 
 router.post('/login', loginAdmin);
 router.get('/dashboard', protect, admin, getDashboardStats);
-
 module.exports = router;

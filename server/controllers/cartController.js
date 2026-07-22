@@ -1,6 +1,7 @@
 const Cart = require('../models/Cart');
 const Product = require('../models/Product');
 
+
 // Helper to populate product details in mock cart items
 const populateMockCart = (userId) => {
   const userCarts = global.mockCarts.filter(c => c.userId === userId);

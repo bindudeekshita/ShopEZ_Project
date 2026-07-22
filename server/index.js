@@ -3,7 +3,6 @@ const express = require('express');
 const cors = require('cors');
 const connectDB = require('./config/db');
 const seedData = require('./config/seeder');
-
 const authRoutes = require('./routes/authRoutes');
 const productRoutes = require('./routes/productRoutes');
 const cartRoutes = require('./routes/cartRoutes');

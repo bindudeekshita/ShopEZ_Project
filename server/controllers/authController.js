@@ -2,6 +2,7 @@ const User = require('../models/User');
 const jwt = require('jsonwebtoken');
 const bcrypt = require('bcryptjs');
 
+
 const generateToken = (id) => {
   return jwt.sign({ id }, process.env.JWT_SECRET || 'shopez_secret_key_123_abc_xyz', {
     expiresIn: '30d',

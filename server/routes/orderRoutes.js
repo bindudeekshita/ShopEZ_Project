@@ -8,7 +8,6 @@ const {
 } = require('../controllers/orderController');
 const { protect } = require('../middleware/auth');
 const { admin } = require('../middleware/admin');
-
 // Checkout and get personal orders are accessible by logged-in users
 router.post('/', protect, placeOrder);
 router.get('/user', protect, getUserOrders);
