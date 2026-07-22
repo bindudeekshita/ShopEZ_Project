@@ -8,6 +8,7 @@ const SidebarFilters = ({ selectedSort, onSortChange, selectedGender, onGenderCh
     'Discount'
   ];
 
+  
   const genderOptions = [
     { label: 'All Genders', value: 'All' },
     { label: 'Men', value: 'Men' },
