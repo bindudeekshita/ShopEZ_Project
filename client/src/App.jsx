@@ -4,7 +4,7 @@ import { AuthProvider, AuthContext } from './context/AuthContext';
 import { CartProvider } from './context/CartContext';
 // Components
 import Header from './components/Header';
-import Footer from './components/Footer';
+import Footer from './components/Footer'
 
 // Pages
 import Home from './pages/Home';
