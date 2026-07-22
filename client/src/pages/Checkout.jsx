@@ -4,6 +4,7 @@ import { CreditCard, Truck, Wallet, ShieldCheck } from 'lucide-react';
 import api from '../services/api';
 import { CartContext } from '../context/CartContext';
 
+
 const Checkout = () => {
   const navigate = useNavigate();
   const { cartItems, cartSubtotal, clearCart } = useContext(CartContext);
